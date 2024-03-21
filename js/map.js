@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             // Create a polyline using the array of coordinates and add it to the map
+            console.log(polylineCoordinates); // Check the array content
             var polyline = L.polyline(polylineCoordinates, {color: 'red'}).addTo(map);
 
             // Optional: adjust the view to show all markers and polylines
