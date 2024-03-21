@@ -1,14 +1,9 @@
 {
     "locations": [
         {
-            "lat": 48.8566,
-            "lng": 2.3522,
-            "description": "Paris, France"
-        },
-        {
-            "lat": 51.5074,
-            "lng": -0.1278,
-            "description": "London, UK"
+            "lat": 69.64548630210649,
+            "lng": 18.993935323746022,
+            "description": "Tromsø, Norway"
         }
     ]
 }
