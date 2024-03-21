@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         maxZoom: 18,
     }).addTo(map);
 
-    fetch('coordinates.json')
+    fetch('../coordinates.json')
         .then(response => response.json())
         .then(data => {
             data.locations.forEach(location => {
