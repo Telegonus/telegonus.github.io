@@ -1,0 +1,47 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Dark background */
+    font-family: 'Press Start 2P', cursive; /* Ensure you include or import the font */
+}
+
+header {
+    background-color: #202040; /* Dark blue background */
+    color: #ff4081; /* Neon pink text color */
+    padding: 20px 10px; /* Adjusted padding for mobile */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.2rem; /* Adjust the font size for better mobile visibility */
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 90vh; /* Adjusted height for header */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1rem; /* Smaller font size on very small devices */
+    }
+
+    #map {
+        height: 85vh; /* More space for the header on smaller screens */
+    }
+}
+
+/* Additional responsive adjustments for tablets and medium-sized devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.1rem; /* Slightly larger font for tablets */
+    }
+    
+    #map {
+        height: 88vh; /* Adjusting the map height for medium screens */
+    }
+}
