@@ -69,18 +69,18 @@ nav ul li a:hover, nav ul li a:focus {
 @media (max-width: 768px) {
     header nav ul li {
         display: block; /* Stack the menu items */
-        margin: 10px auto; /* Adjust margin as needed */
+        margin: 5px auto; /* Adjust margin as needed */
     }
 
     header nav ul li a {
         display: block; /* Ensure links also take up full width */
-        padding: 10px; /* Adjust padding for better touch targets */
+        padding: 5px; /* Adjust padding for better touch targets */
         text-align: center; /* Center-align the text for aesthetics */
     }
 
     /* Adjust the header padding on smaller screens for better spacing */
     header {
-        padding: 15px 0;
+        padding: 10px 0;
     }
     
     /* Optional: Adjust the font size for the site title and menu on smaller screens */
