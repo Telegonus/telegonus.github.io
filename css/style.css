@@ -1,47 +1,77 @@
-/* General styles */
+/* General Styles */
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #000; /* Dark background */
-    font-family: 'Press Start 2P', cursive; /* Ensure you include or import the font */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f2;
 }
 
 header {
-    background-color: #202040; /* Dark blue background */
-    color: #ff4081; /* Neon pink text color */
-    padding: 20px 10px; /* Adjusted padding for mobile */
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
 
-header h1 {
-    font-size: 1.2rem; /* Adjust the font size for better mobile visibility */
-    margin: 0;
-    padding: 0;
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+    background-color: #0056b3;
+}
+
+/* Gallery Styles */
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    margin: auto;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+    transition: transform 0.3s ease-in-out;
+}
+
+#gallery img:hover, #gallery img:focus {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Map Specific Styles */
 #map {
     width: 100%;
-    height: 90vh; /* Adjusted height for header */
+    height: 90vh; /* Adjust based on header size */
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1rem; /* Smaller font size on very small devices */
-    }
-
-    #map {
-        height: 85vh; /* More space for the header on smaller screens */
-    }
-}
-
-/* Additional responsive adjustments for tablets and medium-sized devices */
+/* Adjustments for smaller screens */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 1.1rem; /* Slightly larger font for tablets */
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
     }
-    
-    #map {
-        height: 88vh; /* Adjusting the map height for medium screens */
+
+    header nav ul li a {
+        display: inline-block;
+        margin: 0 auto;
     }
 }
