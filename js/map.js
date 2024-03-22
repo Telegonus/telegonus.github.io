@@ -19,9 +19,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
             data.locations.forEach(location => {
                 var latlng = [location.lat, location.lng];
-
+                
+                var customIcon = L.icon({
+                iconUrl: 'marker.png',
+                iconSize: [40, 80], // Size of the icon
+                iconAnchor: [25, 50], // Point of the icon which will correspond to marker's location
+                popupAnchor: [0, -50] // Point from which the popup should open relative to the iconAnchor
+            });
                 // Add marker for each location
-                L.marker(latlng).addTo(map)
+                L.marker([latlng], {icon: customIcon}).addTo(map)
                     .bindPopup(location.description);
 
                 // Add this location's coordinates to the array
