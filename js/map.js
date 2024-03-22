@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 popupAnchor: [0, -50] // Point from which the popup should open relative to the iconAnchor
             });
                 // Add marker for each location
-                L.marker([latlng], {icon: customIcon}).addTo(map)
+                L.marker(latlng, {icon: customIcon}).addTo(map)
                     .bindPopup(location.description);
 
                 // Add this location's coordinates to the array
