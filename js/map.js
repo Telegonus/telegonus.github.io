@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
             var customIcon = L.icon({
-                iconUrl: 'marker.png',
+                iconUrl: '../marker.png',
                 iconSize: [40, 80], // Size of the icon
                 iconAnchor: [25, 50], // Point of the icon which will correspond to marker's location
                 popupAnchor: [0, -50] // Point from which the popup should open relative to the iconAnchor
