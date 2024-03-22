@@ -21,29 +21,33 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
 
-        .then(data => {
-            // Initialize an array to hold the coordinates for the polyline
-            var polylineCoordinates = [];
+.then(data => {
+    // Initialize an array to hold the coordinates for the polyline
+    var polylineCoordinates = [];
 
-            data.locations.forEach(location => {
-                var latlng = [location.lat, location.lng];
-                
+    // Get the index of the last location in the array
+    var lastIndex = data.locations.length - 1;
 
-                // Add marker for each location
-                L.marker(latlng, {icon: customIcon}).addTo(map)
-                    .bindPopup(location.description);
+    data.locations.forEach((location, index) => {
+        var latlng = [location.lat, location.lng];
+        
+        // Add this location's coordinates to the array
+        polylineCoordinates.push(latlng);
 
-                // Add this location's coordinates to the array
-                polylineCoordinates.push(latlng);
-            });
+        // Check if this is the last location; if so, add the marker
+        if (index === lastIndex) {
+            L.marker(latlng, {icon: customIcon}).addTo(map)
+                .bindPopup(location.description);
+        }
+    });
 
-            // Create a polyline using the array of coordinates and add it to the map
-            console.log(polylineCoordinates); // Check the array content
-            var polyline = L.polyline(polylineCoordinates, {color: 'red'}).addTo(map);
+    // Create a polyline using the array of coordinates and add it to the map
+    console.log(polylineCoordinates); // Check the array content
+    var polyline = L.polyline(polylineCoordinates, {color: 'red'}).addTo(map);
 
-            // Optional: adjust the view to show all markers and polylines
-            map.fitBounds(polyline.getBounds());
-        })
+    // Optional: adjust the view to show all markers and polylines
+    map.fitBounds(polyline.getBounds());
+})
         .catch(error => {
             console.error('Error loading coordinates:', error);
         });
