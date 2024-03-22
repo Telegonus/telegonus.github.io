@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
     var map = L.map('map').setView([20.0, 0.0], 2); // Adjust view as needed
 
+    var customIcon = L.icon({
+            iconUrl: '../marker.png',
+            iconSize: [40, 80], // Size of the icon
+            iconAnchor: [25, 50], // Point of the icon which will correspond to marker's location
+            popupAnchor: [0, -50] // Point from which the popup should open relative to the iconAnchor
+            });
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data &copy; OpenStreetMap contributors',
         maxZoom: 18,
@@ -13,12 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             return response.json();
         })
-            var customIcon = L.icon({
-                iconUrl: '../marker.png',
-                iconSize: [40, 80], // Size of the icon
-                iconAnchor: [25, 50], // Point of the icon which will correspond to marker's location
-                popupAnchor: [0, -50] // Point from which the popup should open relative to the iconAnchor
-            });
+
         .then(data => {
             // Initialize an array to hold the coordinates for the polyline
             var polylineCoordinates = [];
