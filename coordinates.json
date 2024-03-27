@@ -9,6 +9,16 @@
             "lat": 69.65295924900687,
             "lng": 18.95888380368784,
             "description": "Tromsø, Norway"
+        },
+        {
+            "lat": 69.6488503,
+            "lng": 18.9624932,
+            "description": "Tromsø, Norway"
+        },
+        {
+            "lat": 69.3888529,
+            "lng": 20.2738446,
+            "description": "Skibotn, Norway"
         }
     ]
 }
