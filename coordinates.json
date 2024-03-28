@@ -1,10 +1,4 @@
 {
-	,
-    "transports": {
-        "Train": 12, // Update manually
-        "Bus": 10, // Update manually
-        "Ferry": 2 // Update manually
-    },
     "locations": [
         {
             "lat": 69.64206877174956,
@@ -51,6 +45,10 @@
             "lng": 24.752683889370726,
             "description": "Tallinn, Estonia"
         }
-    ]
+    ],
+    "transports": {
+        "Train": 0, // Update manually
+        "Bus": 0, // Update manually
+        "Ferry": 0 // Update manually
+    }
 }
-

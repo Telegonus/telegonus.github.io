@@ -40,29 +40,27 @@ nav ul li a:hover, nav ul li a:focus {
     transform: translateY(-2px); /* Slight raise effect */
 }
 
-nav ul li a:hover, nav ul li a:focus {
-    background-color: #ff4081; /* Neon pink background on hover */
-    color: #202040; /* Dark blue text color on hover */
-    transform: translateY(-2px); /* Slight raise effect */
-}
-
-#gallery, #map {
+#map {
     width: 100%;
     height: 85vh; /* Adjusted height for header and navigation */
 }
 
-/* Gallery specific styles */
-#gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 16px;
-    padding: 20px;
+/* Transport Tracker Styles */
+#transport-tracker {
+    margin: 20px;
+    padding: 10px;
+    background-color: #202040; /* Matching dark blue background */
+    color: #ff4081; /* Neon pink text color for consistency */
+    border-radius: 5px;
 }
 
-#gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px; /* Optional: Rounded corners for images */
+#transport-tracker h2, #transport-list li {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#transport-list li {
+    list-style-type: none;
+    padding: 5px 0; /* Add some spacing between list items */
 }
 
 /* Responsive adjustments for smaller screens */
@@ -87,25 +85,9 @@ nav ul li a:hover, nav ul li a:focus {
     header h1, header nav ul li a {
         font-size: 0.8rem; /* Adjust based on your preference */
     }
-}
-#transport-tracker {
-    margin: 20px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-}
 
-#transport-tracker h2 {
-    font-family: 'Press Start 2P', cursive;
-}
-
-#transport-list li {
-    font-family: Arial, sans-serif;
-    list-style-type: none;
-}
-/* You might want to adjust the map and gallery height as well on smaller screens */
-@media (max-width: 768px) {
-    #map, #gallery {
+    /* Adjust the map and transport tracker height on smaller screens */
+    #map, #transport-tracker {
         height: auto; /* Or set to a specific height that works better */
     }
 }
