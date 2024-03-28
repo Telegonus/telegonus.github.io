@@ -25,5 +25,10 @@
             <!-- Add more <img> tags as needed for additional photos -->
         </div>
     </main>
+    <!-- Lightbox container hidden by default -->
+    <div id="lightbox" style="display:none; position:fixed; z-index:1000; width:100%; height:100%; background-color:rgba(0,0,0,0.8); top:0; left:0; align-items:center; justify-content:center;">
+        <img id="lightbox-img" style="max-width:90%; max-height:90%;" />
+    </div>
+    <script src="js/gallery.js"></script> <!-- Ensure this path matches the location of your gallery.js file -->
 </body>
 </html>
