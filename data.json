@@ -1,0 +1,54 @@
+{
+    "locations": [
+        {
+            "lat": 69.64206877174956,
+            "lng": 19.007286879088916,
+            "description": "Tromsø, Norway"
+        },
+        {
+            "lat": 69.65295924900687,
+            "lng": 18.95888380368784,
+            "description": "Tromsø, Norway"
+        },
+        {
+            "lat": 69.6488503,
+            "lng": 18.9624932,
+            "description": "Tromsø, Norway"
+        },
+        {
+            "lat": 69.3888529,
+            "lng": 20.2738446,
+            "description": "Skibotn, Norway"
+        },
+        {
+            "lat": 69.0169188,
+            "lng": 20.8746749,
+            "description": "Kilpisjärvi, Finland"
+        },
+        {
+            "lat": 67.9553075,
+            "lng": 23.6838895,
+            "description": "Muonio, Finland"
+        },
+        {
+            "lat": 66.4982612,
+            "lng": 25.7053275,
+            "description": "Rovaniemi, Finland"
+        },
+        {
+            "lat": 60.1733615,
+            "lng": 24.9423896,
+            "description": "Helsinki, Finland"
+        },
+        {
+            "lat": 59.437209400850136,
+            "lng": 24.752683889370726,
+            "description": "Tallinn, Estonia"
+        }
+    ],
+    "transports": {
+        "Train": 0, // Update manually
+        "Bus": 0, // Update manually
+        "Ferry": 0 // Update manually
+    }
+}
