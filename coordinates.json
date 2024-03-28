@@ -39,6 +39,11 @@
             "lat": 60.1733615,
             "lng": 24.9423896,
             "description": "Helsinki, Finland"
+        },
+        {
+            "lat": 59.437209400850136,
+            "lng": 24.752683889370726,
+            "description": "Tallinn, Estonia"
         }
     ]
 }
