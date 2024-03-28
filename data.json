@@ -47,8 +47,8 @@
         }
     ],
     "transports": {
-        "Train": 0,
-        "Bus": 0,
-        "Ferry": 0
+        "Train": 12.5,
+        "Bus": 10,
+        "Ferry": 2
     }
 }
