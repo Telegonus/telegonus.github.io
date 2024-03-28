@@ -1,18 +1,10 @@
 {
-	  "transports": [
-    {
-      "type": "Train",
-      "duration": 2.5
+	,
+    "transports": {
+        "Train": 12, // Update manually
+        "Bus": 10, // Update manually
+        "Ferry": 2 // Update manually
     },
-    {
-      "type": "Bus",
-      "duration": 1.5
-    },
-    {
-      "type": "Ferry",
-      "duration": 3
-    }
-  ]
     "locations": [
         {
             "lat": 69.64206877174956,
