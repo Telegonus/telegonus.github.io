@@ -93,7 +93,7 @@ nav ul li a:hover, nav ul li a:focus {
 }
 #gallery img {
     max-width: 100%; /* Make images responsive */
-    max-height: 200px; /* Adjust based on your preference */
+    max-height: 500px; /* Adjust based on your preference */
     object-fit: cover; /* This ensures the aspect ratio is maintained */
     cursor: pointer; /* Change cursor to indicate images are clickable */
     margin-bottom: 10px; /* Add some space between images */
