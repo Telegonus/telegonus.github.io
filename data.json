@@ -47,8 +47,8 @@
         }
     ],
     "transports": {
-        "Train": 0, // Update manually
-        "Bus": 0, // Update manually
-        "Ferry": 0 // Update manually
+        "Train": 0,
+        "Bus": 0,
+        "Ferry": 0
     }
 }
