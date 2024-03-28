@@ -40,6 +40,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 .bindPopup(location.description);
         }
     });
+	document.addEventListener('DOMContentLoaded', function() {
+    // Existing map initialization code here...
+
+    fetch('../transports.json') // Adjust the file name as needed
+        .then(response => response.json())
+        .then(data => {
+            const transportList = document.getElementById('transport-list');
+            data.transports.forEach(transport => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${transport.type}: ${transport.duration} hours`;
+                transportList.appendChild(listItem);
+            });
+        })
+        .catch(error => console.error('Error loading transport data:', error));
+});
 
     // Create a polyline using the array of coordinates and add it to the map
     console.log(polylineCoordinates); // Check the array content

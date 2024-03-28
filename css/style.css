@@ -88,7 +88,21 @@ nav ul li a:hover, nav ul li a:focus {
         font-size: 0.8rem; /* Adjust based on your preference */
     }
 }
+#transport-tracker {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
 
+#transport-tracker h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#transport-list li {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+}
 /* You might want to adjust the map and gallery height as well on smaller screens */
 @media (max-width: 768px) {
     #map, #gallery {

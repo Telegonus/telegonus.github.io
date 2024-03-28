@@ -1,4 +1,18 @@
 {
+	  "transports": [
+    {
+      "type": "Train",
+      "duration": 2.5
+    },
+    {
+      "type": "Bus",
+      "duration": 1.5
+    },
+    {
+      "type": "Ferry",
+      "duration": 3
+    }
+  ]
     "locations": [
         {
             "lat": 69.64206877174956,
