@@ -44,10 +44,15 @@
             "lat": 59.437209400850136,
             "lng": 24.752683889370726,
             "description": "Tallinn, Estonia"
+        },
+        {
+            "lat": 58.378628322853935,
+            "lng": 26.72781709585119,
+            "description": "Tartu, Estonia"
         }
     ],
     "transports": {
-        "Train": 12.5,
+        "Train": 15,
         "Bus": 10,
         "Ferry": 2
     }
