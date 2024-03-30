@@ -54,6 +54,11 @@
             "lat": 57.7749107,
             "lng": 26.0522365,
             "description": "Valga, Estonia"
+        },
+        {
+            "lat": 56.9473178,
+            "lng": 24.1091994,
+            "description": "Riga, Lithuania"
         }
     ],
     "transports": {
