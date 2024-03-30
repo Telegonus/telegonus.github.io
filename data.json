@@ -49,6 +49,11 @@
             "lat": 58.378628322853935,
             "lng": 26.72781709585119,
             "description": "Tartu, Estonia"
+        },
+        {
+            "lat": 57.7749107,
+            "lng": 26.0522365,
+            "description": "Valga, Estonia"
         }
     ],
     "transports": {
