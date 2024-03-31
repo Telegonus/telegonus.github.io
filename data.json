@@ -64,6 +64,11 @@
             "lat": 55.92404673731117,
             "lng": 23.312668581843493,
             "description": "Šiauliai, Lithuania"
+        },
+        {
+            "lat": 55.6948320364907,
+            "lng": 21.153017225617667,
+            "description": "Klaipėda, Lithuania"
         }
     ],
     "transports": {
