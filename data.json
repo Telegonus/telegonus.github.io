@@ -59,6 +59,11 @@
             "lat": 56.9473178,
             "lng": 24.1091994,
             "description": "Riga, Latvia"
+        },
+        {
+            "lat": 55.92404673731117,
+            "lng": 23.312668581843493,
+            "description": "Šiauliai, Lithuania"
         }
     ],
     "transports": {
