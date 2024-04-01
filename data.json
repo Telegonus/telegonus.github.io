@@ -69,6 +69,21 @@
             "lat": 55.6948320364907,
             "lng": 21.153017225617667,
             "description": "Klaipėda, Lithuania"
+        },
+        {
+            "lat": 55.68530415895395,
+            "lng": 21.129721785440573,
+            "description": "Smiltynė, Lithuania"
+        },
+        {
+            "lat": 55.293628359662584,
+            "lng": 20.989772870774434,
+            "description": "Death valley, Lithuania"
+        },
+        {
+            "lat": 55.69671188587279,
+            "lng": 21.14834258105937,
+            "description": "Klaipėda, Lithuania"
         }
     ],
     "transports": {
