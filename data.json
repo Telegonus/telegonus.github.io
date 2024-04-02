@@ -84,11 +84,21 @@
             "lat": 55.69671188587279,
             "lng": 21.14834258105937,
             "description": "Klaipėda, Lithuania"
+        },
+        {
+            "lat": 56.0155938,
+            "lng": 23.4152311,
+            "description": "Hill of crosses, Lithuania"
+        },
+        {
+            "lat": 54.6767181,
+            "lng": 25.2801714,
+            "description": "Vilnius, Lithuania"
         }
     ],
     "transports": {
-        "Train": 15,
+        "Train": 38,
         "Bus": 10,
-        "Ferry": 2
+        "Ferry": 2.1
     }
 }
