@@ -94,11 +94,17 @@
             "lat": 54.6767181,
             "lng": 25.2801714,
             "description": "Vilnius, Lithuania"
+        },
+        {
+            "lat": 54.3123427,
+            "lng": 23.3074110,
+            "description": "Mockai, Lithuania"
         }
     ],
     "transports": {
-        "Train": 38,
+        "Train": 44,
         "Bus": 10,
         "Ferry": 2.1
     }
 }
+
