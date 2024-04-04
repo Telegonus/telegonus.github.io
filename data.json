@@ -99,12 +99,16 @@
             "lat": 54.3123427,
             "lng": 23.3074110,
             "description": "Mockai, Lithuania"
+        },
+        {
+            "lat": 53.13471896649096,
+            "lng": 23.13630468850482,
+            "description": "Białystok, Poland"
         }
     ],
     "transports": {
-        "Train": 44,
+        "Train": 45,
         "Bus": 10,
         "Ferry": 2.1
     }
 }
-
