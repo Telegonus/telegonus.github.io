@@ -104,6 +104,11 @@
             "lat": 53.13471896649096,
             "lng": 23.13630468850482,
             "description": "Białystok, Poland"
+        },
+        {
+            "lat": 52.700435079294834,
+            "lng": 23.86601392449579,
+            "description": "Białowieża, Poland"
         }
     ],
     "transports": {
