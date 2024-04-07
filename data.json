@@ -114,6 +114,11 @@ i{
             "lat": 52.1682859,
             "lng": 22.2705817,
             "description": "Siedlce, Poland"
+        },
+        {
+            "lat": 52.2360366,
+            "lng": 21.0189060,
+            "description": "Warsaw, Poland"
         }
     ],
     "transports": {
@@ -122,4 +127,4 @@ i{
         "Ferry": 2.1
     }
 }
-
+(, )
