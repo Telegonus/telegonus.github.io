@@ -1,4 +1,4 @@
-{
+i{
     "locations": [
         {
             "lat": 69.64206877174956,
@@ -109,6 +109,11 @@
             "lat": 52.700435079294834,
             "lng": 23.86601392449579,
             "description": "Białowieża, Poland"
+        },
+        {
+            "lat": 52.1682859,
+            "lng": 22.2705817,
+            "description": "Siedlce, Poland"
         }
     ],
     "transports": {
@@ -117,3 +122,4 @@
         "Ferry": 2.1
     }
 }
+
