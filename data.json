@@ -119,6 +119,11 @@ i{
             "lat": 52.2360366,
             "lng": 21.0189060,
             "description": "Warsaw, Poland"
+        },
+        {
+            "lat": 50.0671903,
+            "lng": 19.9478890,
+            "description": "Krakow, Poland"
         }
     ],
     "transports": {
@@ -127,4 +132,3 @@ i{
         "Ferry": 2.1
     }
 }
-(, )
