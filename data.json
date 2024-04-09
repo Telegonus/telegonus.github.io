@@ -124,6 +124,11 @@
             "lat": 50.0671903,
             "lng": 19.9478890,
             "description": "Krakow, Poland"
+        },
+        {
+            "lat": 49.7822056,
+            "lng": 22.7838029,
+            "description": "Przemysl, Poland"
         }
     ],
     "transports": {
