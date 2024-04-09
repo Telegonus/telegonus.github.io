@@ -129,6 +129,11 @@
             "lat": 49.7822056,
             "lng": 22.7838029,
             "description": "Przemysl, Poland"
+        },
+        {
+            "lat": 49.8416381,
+            "lng": 23.9998855,
+            "description": "Lviv, Ukraine"
         }
     ],
     "transports": {
