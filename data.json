@@ -139,6 +139,11 @@
             "lat": 48.4447055,
             "lng": 22.7202633,
             "description": "Mukachevo, Ukraine"
+        },
+        {
+            "lat": 48.6547689,
+            "lng": 22.2662400,
+            "description": "Uzhhorod border, Ukraine"
         }
     ],
     "transports": {
