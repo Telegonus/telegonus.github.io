@@ -144,6 +144,11 @@
             "lat": 48.6547689,
             "lng": 22.2662400,
             "description": "Uzhhorod border, Ukraine"
+        },
+        {
+            "lat": 48.72028013057186,
+            "lng": 21.24928198610669,
+            "description": "Kosice, Slovakia"
         }
     ],
     "transports": {
@@ -152,5 +157,4 @@
         "Ferry": 2.1
     }
 }
-
 
