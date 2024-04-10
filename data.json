@@ -134,6 +134,11 @@
             "lat": 49.8416381,
             "lng": 23.9998855,
             "description": "Lviv, Ukraine"
+        },
+        {
+            "lat": 48.4447055,
+            "lng": 22.7202633,
+            "description": "Mukachevo, Ukraine"
         }
     ],
     "transports": {
@@ -142,3 +147,5 @@
         "Ferry": 2.1
     }
 }
+
+
