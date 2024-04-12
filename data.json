@@ -149,6 +149,11 @@
             "lat": 48.72028013057186,
             "lng": 21.24928198610669,
             "description": "Kosice, Slovakia"
+        },
+        {
+            "lat": 47.4981107,
+            "lng": 19.0762455,
+            "description": "Kosice, Slovakia"
         }
     ],
     "transports": {
@@ -157,4 +162,3 @@
         "Ferry": 2.1
     }
 }
-
