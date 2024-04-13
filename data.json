@@ -154,6 +154,21 @@
             "lat": 47.4981107,
             "lng": 19.0762455,
             "description": "Kosice, Slovakia"
+        },
+        {
+            "lat": 47.341234808227696,
+            "lng": 18.767162929886755,
+            "description": "Martonvasar, Hungary"
+        },
+        {
+            "lat": 47.479471166784,
+            "lng": 19.099097321070953,
+            "description": "Budapest, Hungary"
+        },
+        {
+            "lat": 45.629972770831245,
+            "lng": 25.577246944168223,
+            "description": "Brasov, Romania"
         }
     ],
     "transports": {
