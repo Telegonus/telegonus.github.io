@@ -169,6 +169,11 @@
             "lat": 45.629972770831245,
             "lng": 25.577246944168223,
             "description": "Brasov, Romania"
+        },
+        {
+            "lat": 44.1960619,
+            "lng": 28.6552499,
+            "description": "Constanta, Romania"
         }
     ],
     "transports": {
@@ -177,3 +182,4 @@
         "Ferry": 2.1
     }
 }
+
