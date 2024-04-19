@@ -179,6 +179,11 @@
             "lat": 44.3142580,
             "lng": 23.8025877,
             "description": "Craiova, Romania"
+        },
+        {
+            "lat": 43.9842117,
+            "lng": 22.8743968,
+            "description": "Vidin, Bulgaria"
         }
     ],
     "transports": {
