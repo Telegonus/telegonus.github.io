@@ -184,6 +184,11 @@
             "lat": 43.9842117,
             "lng": 22.8743968,
             "description": "Vidin, Bulgaria"
+        },
+        {
+            "lat": 42.7141561,
+            "lng": 23.3151629,
+            "description": "Sofia, Bulgaria"
         }
     ],
     "transports": {
