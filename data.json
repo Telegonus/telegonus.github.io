@@ -189,6 +189,11 @@
             "lat": 42.7141561,
             "lng": 23.3151629,
             "description": "Sofia, Bulgaria"
+        },
+        {
+            "lat": 40.9959474,
+            "lng": 29.0275262,
+            "description": "Sofia, Bulgaria"
         }
     ],
     "transports": {
