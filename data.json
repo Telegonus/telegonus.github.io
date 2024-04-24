@@ -194,6 +194,11 @@
             "lat": 40.9959474,
             "lng": 29.0275262,
             "description": "Sofia, Bulgaria"
+        },
+        {
+            "lat": 39.9343640,
+            "lng": 32.8616378,
+            "description": "Ankara, Bulgaria"
         }
     ],
     "transports": {
@@ -202,4 +207,3 @@
         "Ferry": 2.1
     }
 }
-
