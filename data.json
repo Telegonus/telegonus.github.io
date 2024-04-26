@@ -204,6 +204,11 @@
             "lat": 39.3843475,
             "lng": 38.1139014,
             "description": "Dogu ekspress, Turkey"
+        },
+        {
+            "lat": 39.9144985,
+            "lng": 41.2684538,
+            "description": "Erzurum, Turkey"
         }
     ],
     "transports": {
