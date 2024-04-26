@@ -193,12 +193,17 @@
         {
             "lat": 40.9959474,
             "lng": 29.0275262,
-            "description": "Sofia, Bulgaria"
+            "description": "Istanbul, Turkey"
         },
         {
             "lat": 39.9343640,
             "lng": 32.8616378,
-            "description": "Ankara, Bulgaria"
+            "description": "Ankara, Turkey"
+        },
+        {
+            "lat": 39.3843475,
+            "lng": 38.1139014,
+            "description": "Dogu ekspress, Turkey"
         }
     ],
     "transports": {
@@ -207,3 +212,4 @@
         "Ferry": 2.1
     }
 }
+
