@@ -209,6 +209,16 @@
             "lat": 39.9144985,
             "lng": 41.2684538,
             "description": "Erzurum, Turkey"
+        },
+        {
+            "lat": 41.3914506,
+            "lng": 41.4205614,
+            "description": "Hopa, Turkey"
+        },
+        {
+            "lat": 41.6407440,
+            "lng": 41.6318765,
+            "description": "Batumi, Georgia"
         }
     ],
     "transports": {
