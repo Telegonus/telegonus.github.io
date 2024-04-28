@@ -219,6 +219,11 @@
             "lat": 41.6407440,
             "lng": 41.6318765,
             "description": "Batumi, Georgia"
+        },
+        {
+            "lat": 42.5008194,
+            "lng": 41.8731094,
+            "description": "Zugdidi, Georgia"
         }
     ],
     "transports": {
