@@ -224,6 +224,16 @@
             "lat": 42.5008194,
             "lng": 41.8731094,
             "description": "Zugdidi, Georgia"
+        },
+        {
+            "lat": 43.0380328,
+            "lng": 42.6979003,
+            "description": "Mestia, Georgia"
+        },
+        {
+            "lat": 41.7080503,
+            "lng": 44.7924993,
+            "description": "Tbilisi, Georgia"
         }
     ],
     "transports": {
@@ -232,4 +242,3 @@
         "Ferry": 2.1
     }
 }
-
