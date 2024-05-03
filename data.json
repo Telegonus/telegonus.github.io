@@ -234,6 +234,11 @@
             "lat": 41.7080503,
             "lng": 44.7924993,
             "description": "Tbilisi, Georgia"
+        },
+        {
+            "lat": 41.2675215,
+            "lng": 69.2743595,
+            "description": "Tashkent, Uzbekistan"
         }
     ],
     "transports": {
@@ -242,3 +247,4 @@
         "Ferry": 2.1
     }
 }
+
