@@ -239,6 +239,11 @@
             "lat": 41.2675215,
             "lng": 69.2743595,
             "description": "Tashkent, Uzbekistan"
+        },
+        {
+            "lat": 39.6624468,
+            "lng": 66.9813425,
+            "description": "Samarkand, Uzbekistan"
         }
     ],
     "transports": {
