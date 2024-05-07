@@ -244,6 +244,11 @@
             "lat": 39.6624468,
             "lng": 66.9813425,
             "description": "Samarkand, Uzbekistan"
+        },
+        {
+            "lat": 37.2480464,
+            "lng": 67.4146808,
+            "description": "Akhunbabaev, Uzbekistan"
         }
     ],
     "transports": {
