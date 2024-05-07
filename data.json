@@ -249,6 +249,16 @@
             "lat": 37.2480464,
             "lng": 67.4146808,
             "description": "Akhunbabaev, Uzbekistan"
+        },
+        {
+            "lat": 37.3646225,
+            "lng": 68.6914309,
+            "description": "Dusti, Tajikistan"
+        },
+        {
+            "lat": 37.1892755,
+            "lng": 68.6124987,
+            "description": "Shir Kan Bandar, Afghanistan"
         }
     ],
     "transports": {
@@ -257,4 +267,3 @@
         "Ferry": 2.1
     }
 }
-
