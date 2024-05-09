@@ -259,6 +259,11 @@
             "lat": 37.1892755,
             "lng": 68.6124987,
             "description": "Shir Kan Bandar, Afghanistan"
+        },
+        {
+            "lat": 36.7285907,
+            "lng": 68.8680663,
+            "description": "Kunduz, Afghanistan"
         }
     ],
     "transports": {
@@ -267,3 +272,5 @@
         "Ferry": 2.1
     }
 }
+
+
