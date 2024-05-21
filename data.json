@@ -264,6 +264,16 @@
             "lat": 36.7285907,
             "lng": 68.8680663,
             "description": "Kunduz, Afghanistan"
+        },
+        {
+            "lat": 34.8100067,
+            "lng": 67.8212104,
+            "description": "Bamyian, Afghanistan"
+        },
+        {
+            "lat": 34.5119454,
+            "lng": 69.1668802,
+            "description": "Kabul, Afghanistan"
         }
     ],
     "transports": {
