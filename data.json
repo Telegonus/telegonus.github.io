@@ -274,6 +274,11 @@
             "lat": 34.5119454,
             "lng": 69.1668802,
             "description": "Kabul, Afghanistan"
+        },
+        {
+            "lat": 5.9601422,
+            "lng": 80.4384080,
+            "description": "Weligama, Sri Lanka"
         }
     ],
     "transports": {
